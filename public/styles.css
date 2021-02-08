@@ -1,0 +1,101 @@
+.container{
+    display:grid;
+    justify-content: center;
+    width:vw;
+    height:100vh;
+    background:linear-gradient(to right,rgb(223, 36, 4),rgb(238, 222, 1));
+    margin:-10px;
+}
+.box{
+    width: 50vw;
+
+    margin-top:50px;
+    height:fit-content;
+    background-color: white;
+    color: black;
+    border-radius:25px;
+   padding:20px;
+
+   padding-top:0px;
+   width:700px;
+   height:fit-content;
+  box-shadow: ivory;
+}
+.inputfield{
+    text-align:center;
+   width:90%;
+
+
+    color: rgb(55, 57, 58);
+
+}
+
+body{
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+input[type=submit]{
+    text-align: center;
+    font-size: 15px;
+    border-radius:2px;
+}
+input[type=text]{
+    min-width: 190px;
+    width:fit-content
+}
+.end{
+    display:none;
+}
+h3, p {
+    padding-left: 70px;
+}
+.rightSide{
+ position:fixed;
+ left:438px;
+ width:100px;
+ height:100vh;
+ text-align:left;
+
+}
+.buttons{
+    display:block;
+    text-align: center;
+    justify-content: center;
+}
+.buttons button{
+   max-width: fit-content; 
+}
+.errors p{
+font-size:13px;
+ color: red;
+ text-align: left;
+ display:none;
+}
+.tool{
+  position: relative;
+  display:inline-block;
+  font-size:8px;
+
+  
+}
+.tool .tooltext{
+    visibility: hidden;
+    font-size:12px;
+    width: 120px;
+    height: fit-content;
+    text-align: center;
+    border-color: black;
+    background-color: lightgray;
+    position: absolute;
+     z-index: 1;
+}
+.tool .tooltext::after {
+    content: "";
+    position: relative;
+    top: 100%;
+    left: 50%;
+    
+  }
+
+.tool:hover .tooltext{
+    visibility: visible;
+}

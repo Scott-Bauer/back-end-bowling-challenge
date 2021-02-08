@@ -1,0 +1,10 @@
+{
+    "name": "bowling-proj",
+    "verson": "1.0",
+
+    "scripts" : {
+        "start": "npm run open",
+        "open": "live-server --open=/public/index.html"
+
+    }
+}
